@@ -5,15 +5,18 @@ import store from '@/store/store'
 import vuetify from './plugins/vuetify'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
-import VueHexContainer from 'vue-hexagonal-container'
+import './assets/FontStyles.css'
+import './assets/TextSizingStyles.css'
 
 import axios from "axios"
 import vueAxios from "vue-axios"
 
+import VueHexagonal from '@sphirye/vue-hexagonal-container'
+
 Vue.config.productionTip = false
 
 Vue.use(vueAxios, axios)
-Vue.use(VueHexContainer)
+Vue.use(VueHexagonal)
 
 new Vue({
   router,

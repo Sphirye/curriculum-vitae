@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main class="blue-grey darken-2">
       <router-view/>
     </v-main>
   </v-app>
@@ -18,3 +18,6 @@ export default class App extends Vue {
 }
 
 </script>
+
+<style>
+</style>

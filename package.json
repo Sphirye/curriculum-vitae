@@ -8,15 +8,16 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "@sphirye/vue-hexagonal-container": "^2.0.0",
     "axios": "^0.21.1",
     "roboto-fontface": "*",
     "vue": "^2.6.11",
     "vue-anartz-lib": "^0.0.1",
     "vue-axios": "^3.2.4",
     "vue-class-component": "^7.2.3",
-    "vue-hexagonal-container": "^0.0.2",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0",
+    "vue-test-sfc": "^1.0.3",
     "vuetify": "^2.4.0",
     "vuex": "^3.4.0",
     "vuex-module-decorators": "^1.0.1"

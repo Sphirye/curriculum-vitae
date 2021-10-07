@@ -1,0 +1,46 @@
+{
+  "profile": "Descripción de perfil.",
+  "contacts": [
+    { "icon": "", "content": "+58 412-1725971" },
+    { "icon": "", "content": "RonielContreras70@Gmail.com" },
+    { "icon": "", "content": "@Sphirye" },
+    { "icon": "", "content": "@Sphirye" }
+  ],
+  "experiences": [ 
+    { 
+      "name": "Desarrollador Web", 
+      "date": "2018 - Presente",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+    },
+    { 
+      "name": "Composición de Sountracks", 
+      "date": "2017 - Presente",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+    },
+    { 
+      "name": "Freelancer", 
+      "date": "2020 - Presente",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+    }
+  ],
+  "skills": [
+    { "name": "Vue.js", "icon": "fab fa-vuejs", "percentage": "80" },
+    { "name": "Node.js", "icon": "fab fa-node", "percentage": "70" },
+    { "name": "JavaScript", "icon": "fab fa-js", "percentage": "87" },
+    { "name": "NPM", "icon": "fab fa-npm", "percentage": "65" },
+    { "name": "Typescript", "icon": "mdi-language-typescript", "percentage": "75" },
+    { "name": "HTML5", "icon": "fab fa-html5", "percentage": "84" },
+    { "name": "Git", "icon": "fab fa-git-square", "percentage": "80" },
+    { "name": "Docker", "icon": "fab fa-docker", "percentage": "45" },
+    { "name": "CSS", "icon": "fab fa-css3-alt", "percentage": "78" },
+    { "name": "Linux", "icon": "fab fa-linux", "percentage": "68" }
+  ],
+  "contact": [
+    { "color": "black", "icon": "fab fa-github", "url": "github.com/Sphirye" },
+    { "color": "blue", "icon": "fab fa-twitter", "url": "twitter.com/Sphirye" },
+    { "color": "blue", "icon": "fab fa-telegram", "url": "@Sphirye" },
+    { "color": "black", "icon": "fas fa-phone", "url": "+58 412-1725971" },
+    { "color": "indigo lighten-1", "icon": "fab fa-discord", "url": "Sphirye#7777" },
+    { "color": "red lighten-1", "icon": "mdi-gmail", "url": "ronielcontreras70@gmail.com" }
+  ]
+}
