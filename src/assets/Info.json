@@ -1,11 +1,5 @@
 {
   "profile": "Descripción de perfil.",
-  "contacts": [
-    { "icon": "", "content": "+58 412-1725971" },
-    { "icon": "", "content": "RonielContreras70@Gmail.com" },
-    { "icon": "", "content": "@Sphirye" },
-    { "icon": "", "content": "@Sphirye" }
-  ],
   "experiences": [ 
     { 
       "name": "Desarrollador Web", 
@@ -13,7 +7,7 @@
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
     },
     { 
-      "name": "Composición de Sountracks", 
+      "name": "Compositor Musical", 
       "date": "2017 - Presente",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
     },
@@ -23,17 +17,48 @@
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
     }
   ],
+  "personalProyects": [
+    {
+      "title": "Clon de twitter",
+      "description": "Fue construido usando sus integraciones (Vuex, Router, Vuetify...), este clon imita lo mas fielmente posible la interfaz basica de Twitter. No tiene un back-end, por lo que es completamente estatico. Tiene un diseño adaptable a dispositivos moviles.",
+      "images": [
+        { "url": "twitter1.png" },
+        { "url": "twitter2.png" }
+      ]
+    },
+    {
+      "title": "Bot de Telegram (Node.js / Typescript)",
+      "description": "Diseñado usando la API de telegram, este bot cumple un rol de moderador y utilidad al mismo, cada imagen posteada en el chat pasará por un filtro (DeepAI) que determina si es inadecuada. Permite buscar imagenes en Google sin dejar le chat. Es capaz de manipular imagenes basandose en comandos dados por el usuario.",
+      "images": [
+        { "url": "tBot.png" }
+      ]
+    },
+    {
+      "title": "Colisiones Programaticas (LibGDX - Java)",
+      "description": "Un ejemplo simple de como sería diseñar un algoritmo de detección/detención de colisiones sin usar librerías fisicas.",
+      "images": [
+        { "url": "gdx1.png" },
+        { "url": "gdx2.png" }
+      ]
+    },
+    {
+      "title": "Curriculum Vitae",
+      "description": "El curriculum que estas leyendo fue diseñado en Vuejs. :)"
+    }
+  ],
   "skills": [
-    { "name": "Vue.js", "icon": "fab fa-vuejs", "percentage": "80" },
+    { "name": "Vue.js", "icon": "fab fa-vuejs", "percentage": "86" },
     { "name": "Node.js", "icon": "fab fa-node", "percentage": "70" },
     { "name": "JavaScript", "icon": "fab fa-js", "percentage": "87" },
     { "name": "NPM", "icon": "fab fa-npm", "percentage": "65" },
-    { "name": "Typescript", "icon": "mdi-language-typescript", "percentage": "75" },
+    { "name": "Typescript", "icon": "mdi-language-typescript", "percentage": "80" },
     { "name": "HTML5", "icon": "fab fa-html5", "percentage": "84" },
     { "name": "Git", "icon": "fab fa-git-square", "percentage": "80" },
     { "name": "Docker", "icon": "fab fa-docker", "percentage": "45" },
     { "name": "CSS", "icon": "fab fa-css3-alt", "percentage": "78" },
-    { "name": "Linux", "icon": "fab fa-linux", "percentage": "68" }
+    { "name": "Linux", "icon": "fab fa-linux", "percentage": "68" },
+    { "name": "Composición musical", "icon": "fas fa-music", "percentage": "75" }
+
   ],
   "contact": [
     { "color": "black", "icon": "fab fa-github", "url": "github.com/Sphirye" },

@@ -41,7 +41,6 @@
     src: url('../assets/fonts/Inter-ExtraLight-BETA.ttf') format('truetype');
 }
 
-
 .inter-weight-black {
     font-family: "Inter-Black";
 }
@@ -121,4 +120,25 @@
 
 .baloo-weight-medium {
     font-family: "Baloo-Medium";
+}
+
+/* Coolvetica */
+
+@font-face {
+    font-family: "Coolvetica-Rg";
+    src: url('../assets/fonts/coolvetica/coolvetica-rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Coolvetica-Rg-Italica";
+    src: url('../assets/fonts/coolvetica/coolvetica-rg-it.ttf') format('truetype');
+}
+
+.coolvetica-rg {
+    font-family: "Coolvetica-Rg";
+    letter-spacing: 2px;
+}
+
+.coolvetica-italica {
+    font-family: "Coolvetica-Rf";
 }
