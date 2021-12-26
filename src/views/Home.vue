@@ -7,7 +7,7 @@
             <v-img src="../assets/pfp.png"/>
           </v-avatar>
           <h1 class="mt-2 text-center coolvetica-rg mini-neon white--text">Roniel Isaac Contreras Medina</h1>
-          <span class="text-size-2 text-center inter-weight-light white--text">Alias: Sphirye</span>
+          <span class="text-size-2 text-center inter-weight-light white--text">Nombre Artistico: Sphirye</span>
         </div>
 
         <v-card class="brown lighten-4">
@@ -73,16 +73,35 @@
 
           <v-row align="center" no-gutters class="brown lighten-5 rounded-xl">
             <v-col cols="12" class="rounded-xl">
-              <v-list two-line class="transparent">
-                <v-list-item v-for="(experience, key) in profile.experiences" :key="key">
-                  <v-list-item-avatar class="mx-0">
-                    <span class="font-weight-bold text-h3">·</span>
-                  </v-list-item-avatar>
+              <v-list two-line class="transparent mx-10">
+                <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="text-size-2">
-                      <span> <span class="inter-weight-bold">{{experience.name}}</span> / Ubicacion {{experience.date}}</span>
+                      <span> <span class="inter-weight-bold mr-2">{{lang.xp_laboral_1.name}}</span>({{lang.xp_laboral_1.date}})</span>
                     </v-list-item-title>
-                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{experience.description}}</v-list-item-subtitle>
+                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{lang.xp_laboral_1.description}}</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
+
+                <v-divider class="mx-15 my-3"/>
+
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title class="text-size-2">
+                      <span> <span class="inter-weight-bold mr-2">{{lang.xp_laboral_2.name}}</span>({{lang.xp_laboral_2.date}})</span>
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="inter-weight-medium text-wrap">
+                      <span>
+                        {{lang.xp_laboral_2.description}}
+                      </span>
+                      <v-spacer class="my-2"/>
+                      <span class="font-weight-bold my-2">
+                        {{lang.xp_laboral_2.edit}}
+                      </span>
+
+                      <v-img class="my-2" :src="require('@/assets/riffexample.png')"/>
+
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
@@ -109,7 +128,7 @@
                   <v-progress-circular :rotate="90" :size="100" :width="15" :value="skill.percentage" color="indigo lighten-2">
                     <v-icon large class="neon">{{skill.icon}}</v-icon>
                   </v-progress-circular>
-                  <span class="inter-weight-bold mini-neon text-wrap">{{skill.name}}</span>
+                  <span style="word-break: normal !important;" class="inter-weight-bold mini-neon text-center text-wrap" v-line-clamp="2">{{skill.name}}</span>
                 </v-card-title>
               </v-card>
             </v-col>
@@ -133,22 +152,55 @@
           <v-row align="center" justify="center" no-gutters class="brown lighten-5 my-3 py-2 rounded-xl">
             <v-col cols="12" class="rounded-xl">
               <v-list two-line class="transparent">
-                <v-list-item v-for="(proyect, key) in profile.personalProyects" :key="key">
+                <v-list-item>
                   <v-list-item-avatar class="mx-0 align-self-start">
                     <span class="font-weight-bold text-h3">·</span>
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title class="text-size-2">
-                      <span class="inter-weight-bold">{{proyect.title}}</span>
+                      <span class="inter-weight-bold">{{lang.personal_project_1.name}}</span>
                     </v-list-item-title>
-                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{proyect.description}}</v-list-item-subtitle>
-                    <v-container v-if="proyect.images">
+                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{lang.personal_project_1.description}}</v-list-item-subtitle>
+                    <v-container class="d-flex justify-center">
+                      <div style="width: 80%;">
+                        <v-img width="100%" style="border-radius: 10px; border: 1px solid grey;" :src="require('@/assets/tBot.png')"/>
+                      </div>
+                    </v-container>
+                  </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                  <v-list-item-avatar class="mx-0 align-self-start">
+                    <span class="font-weight-bold text-h3">·</span>
+                  </v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title class="text-size-2">
+                      <span class="inter-weight-bold">{{lang.personal_project_2.name}}</span>
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{lang.personal_project_2.description}}</v-list-item-subtitle>
+                    <v-container class="d-flex justify-center">
                       <v-row justify="center">
-                        <v-col cols="auto" v-for="(image, key) in proyect.images" :key="key">
-                          <v-img style="border-radius: 10px; border: 1px solid grey;" :src="require('@/assets/'+image.url)"/>
+                        <v-col cols="auto">
+                          <v-img style="border-radius: 10px; border: 1px solid grey;" :src="require('@/assets/gdx1.png')"/>
+                        </v-col>
+
+                        <v-col cols="auto">
+                          <v-img style="border-radius: 10px; border: 1px solid grey;" :src="require('@/assets/gdx2.png')"/>
                         </v-col>
                       </v-row>
                     </v-container>
+                  </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                  <v-list-item-avatar class="mx-0 align-self-start">
+                    <span class="font-weight-bold text-h3">·</span>
+                  </v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title class="text-size-2">
+                      <span class="inter-weight-bold">{{lang.personal_project_3.name}}</span>
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="inter-weight-medium text-wrap">{{lang.personal_project_3.description}}</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
@@ -165,11 +217,15 @@
 import { Component, Vue } from "vue-property-decorator"
 import { VueHexagonal } from '@sphirye/vue-hexagonal-container' //@ts-ignore
 import info from "@/assets/Info.json"
+import spanish from "@/lang/spanish"
+
 
 @Component({ components: { VueHexagonal } })
 
 export default class Home extends Vue {
 
+  //Change to "english" if need to switch between language
+  lang: any = spanish
   profile = info
 
 }

@@ -4,17 +4,17 @@
     { 
       "name": "Desarrollador Web", 
       "date": "2018 - Presente",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+      "description": "A partir de septiembre de 2018 dedique mi tiempo en primer plano al desarrollo web, mi area preferida (y mas trabajada de momento) es el front-end side. Mis frameworks de desarrollo mas usado son VueJs. Experiencia avanzada en establecer conexión a servicios web, rutas dinamicas y almacenamiento local."
     },
-    { 
+    {
       "name": "Compositor Musical", 
       "date": "2017 - Presente",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+      "description": "Poco menos que un trabajo, mi pasatiempo preferido es la composición musical, mis generos mas trabajados son Neo-Soul y Disco."
     },
     { 
       "name": "Freelancer", 
       "date": "2020 - Presente",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur architecto quas provident tempora cupiditate dolores officiis, qui facere doloremque vel atque! Explicabo, veniam! Quos, itaque. Ea provident maxime dolorum necessitatibus."
+      "description": "Mi disponibilidad aquí depende importantemente de mi estado laboral actual, no acepto propuestas de ningún tipo mientras estoy en otro trabajo estable, solo ofrezco servicios de desarrollo web o composición musical (naturalmente.)"
     }
   ],
   "personalProyects": [
@@ -47,7 +47,7 @@
     }
   ],
   "skills": [
-    { "name": "Vue.js", "icon": "fab fa-vuejs", "percentage": "86" },
+    { "name": "Vue.js", "icon": "fab fa-vuejs", "percentage": "95" },
     { "name": "Node.js", "icon": "fab fa-node", "percentage": "70" },
     { "name": "JavaScript", "icon": "fab fa-js", "percentage": "87" },
     { "name": "NPM", "icon": "fab fa-npm", "percentage": "65" },
