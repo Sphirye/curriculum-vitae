@@ -46,21 +46,17 @@
             </v-col>
           </v-row>
 
-          <v-row align="center" no-gutters class="brown lighten-5 rounded-xl">
-            <v-col cols="12" class="rounded-xl px-4 py-3">
+          <v-row align="center" dense class="brown lighten-5 rounded-xl">
+            <v-col cols="12" class="rounded-xl px-12 py-6">
               <p class="inter-weight-medium my-auto">
-                Desarrollador web desde 2018, con experiencia usando tecnologías como Vue.js para el diseño optimo de paginas web y 
-                Typescript para asegurar un codigo limpio y legible. Capacitado para implementar responsive design y garantizar una 
-                interfaz de usuario estable en navegadores tanto moviles como de escritorio.
+                {{ lang.mainDescription }}
               </p>
-
-              <p class="inter-weight-light mt-4">Tal vez algún día me dedique a componer musica de nuevo.</p>
             </v-col>
           </v-row>
 
           <v-divider class="my-3"/>
 
-          <v-row align="center" no-gutters class="brown lighten-3 rounded-xl">
+          <v-row align="center" dense  class="brown lighten-3 rounded-xl">
             <v-col cols="12" class="px-8 py-3 d-flex justify-start align-center">
               <v-avatar style="border: 3px solid #3E2723;">
                 <v-icon>
@@ -71,7 +67,7 @@
             </v-col>
           </v-row>
 
-          <v-row align="center" no-gutters class="brown lighten-5 rounded-xl">
+          <v-row align="center" dense class="brown lighten-5 rounded-xl my-4">
             <v-col cols="12" class="rounded-xl">
               <v-list two-line class="transparent mx-10">
                 <v-list-item>
@@ -129,6 +125,7 @@
                     <v-icon large class="neon">{{skill.icon}}</v-icon>
                   </v-progress-circular>
                   <span style="word-break: normal !important;" class="inter-weight-bold mini-neon text-center text-wrap" v-line-clamp="2">{{skill.name}}</span>
+                  <span style="word-break: normal !important;" class="inter-weight-medium text-h6 text-center text-wrap">{{skill.name}}</span>
                 </v-card-title>
               </v-card>
             </v-col>
@@ -224,7 +221,6 @@ import spanish from "@/lang/spanish"
 
 export default class Home extends Vue {
 
-  //Change to "english" if need to switch between language
   lang: any = spanish
   profile = info
 

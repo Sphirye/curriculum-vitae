@@ -3,6 +3,8 @@ export default {
   profileDescription: "Descripción del perfil.",
   personalDescription: "No es dificil llorar en soledad, pero es casi imposible reir solo.",
 
+  mainDescription: "Programador / Desarrollador web con 4 años de experiencia generando codigo en tecnologías. Principalmente orientado a VueJs y Spring Boot. Capaz de implementar responsive design y ofrecer interfaces de usuario estables en navegadores tanto moviles como de escritorio.",
+
   xp_1: {
     name: "Desarrollador Web",
     date: "2018",
@@ -16,16 +18,16 @@ export default {
   },
 
   xp_laboral_1: {
-    name: "Perfect Beauty",
+    name: "Digital Apps",
     date: "2021",
-    description: "Perfect Beauty es una tienda online de productos y cosmeticos de belleza, mi rol en el proyecto fue desarrollar el front-end side de la pagina incluyendo funciones locales (productos en carrito, internacionalización, etc).",
+    description: "Casa de Software. Actualmente trabajo aquí, mi rol principal ha sido el desarrollo/mantenimiento de proyectos web.",
   },
 
   xp_laboral_2: {
     name: "Riff.CC",
-    date: "2021",
-    edit: "EDIT (septiempre): El proyecto ha sido detenido, Riff.CC ya no esta siendo mantenido y su material ahora es teoricamente Lost Media.",
-    description: "Riff.CC, (fue) un proyecto que apuntaba a la distribución legal de contenido multimedia de forma descentralizada por medio de torrents, fuí el encargado de desarrollar la pagina web, hacerla compatible con dispositivos moviles y implementar funciones de codificado/streaming en ella.",
+    date: "2020-2021",
+    // edit: "EDIT (septiempre): El proyecto fué detenido, Riff.CC .",
+    description: "Riff.CC (fue) un proyecto que apuntaba a la distribución legal de contenido multimedia de forma descentralizada por medio de torrents, fuí el encargado de desarrollar la pagina web, hacerla compatible con dispositivos moviles y implementar funciones de codificado/streaming en ella.",
   },
   
   personal_project_1: {
@@ -40,7 +42,7 @@ export default {
 
   personal_project_3: {
     name: "Curriculum Vitae",
-    description: "De hecho, este curriculum fue diseñado en VueJs. :)"
+    description: "Este curriculum fue diseñado en VueJs. :)"
   }
 
 }
